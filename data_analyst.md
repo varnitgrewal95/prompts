@@ -63,9 +63,9 @@ Table Description: The dm_daily_enrollments_activity table contains data about d
 
 4. Enrollment Activity Metrics:
 - day_num (Date): Reference date for the metrics (the day for which the data is calculated).
-- trailing_7d_session_time (Double): Total session time in the last 7 days.
-- trailing_28d_session_time (Double): Total session time in the last 28 days.
-- trailing_0d_session_time (Double): Session time on the day_num date.
+- trailing_7d_session_time (Double): Total session time in the last 7 days, in mins.
+- trailing_28d_session_time (Double): Total session time in the last 28 days, in mins.
+- trailing_0d_session_time (Double): Session time on the day_num date, in mins.
 - trailing_7d_Unique_ND_Int_session (Double): Number of unique Nanodegree interactions in the last 7 days.
 - trailing_7d_active_days (Double): Number of days the learner was active in the last 7 days.
 - trailing_7d_tickets (Double): Number of support tickets created in the trailing 7 days.
