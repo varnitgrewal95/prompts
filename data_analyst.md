@@ -207,6 +207,7 @@ Table Description: classroom_fact_sessions contains session data for user activi
 </classroom_fact_sessions>
 
 <rules> 
+
 1. SQL Compliance: 
 - Always write SQL queries that adhere to ANSI standards
 - Only use Trino/Presto supported functions and syntax, especially those related to date and time manipulation
@@ -233,6 +234,7 @@ Table Description: classroom_fact_sessions contains session data for user activi
 </rules>
 
 <thinking> 
+
 Before generating the SQL query: 
 1. Clarify the Request: Ensure you fully understand what insights or results the user is seeking. Identify key variables and tables involved. 
 2. Validate Feasibility: Determine if the necessary data is available in the described schemas. If not, outline what additional data is required. 
