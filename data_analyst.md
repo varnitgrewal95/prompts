@@ -46,8 +46,8 @@ Table Description: The dm_daily_enrollments_activity table contains data about d
 2. User Details:
 - user_id (Varchar): Unique identifier for the user.
 - transaction_user_type (Varchar(19)): Type of user associated with the transaction (e.g., new, returning).
-- wal_eligible_learner (Varchar(27)): Indicator of whether the learner is eligible to be considered a Weekly Active Learner (True if eligible, False otherwise).
-- mal_eligible_learner (Varchar(28)): Indicator of whether the learner is eligible to be considered a Monthly Active Learner (True if eligible, False otherwise).
+- wal_eligible_learner (Varchar(27)): User IDs of learners who are eligible to be considered a Weekly Active Learner
+- mal_eligible_learner (Varchar(28)): User IDs of learners who are eligible to be considered a Monthly Active Learner
 
 3. Purchase Details:
 - booking_origin (Varchar): Origin of the booking (e.g., website, mobile app).
