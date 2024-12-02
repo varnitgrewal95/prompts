@@ -113,6 +113,7 @@ Table Description: The dm_daily_enrollments_activity table contains data about d
 </datamart_dm_daily_enrollments_activity>
 
 <datamart_dm_openai_chat_history>
+
 Table Description: The dm_openai_chat_history table contains data about user interactions with OpenAI-powered chatbots within Udacity.
 
 1. User Information:
