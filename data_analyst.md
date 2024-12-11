@@ -210,7 +210,7 @@ Table Description: classroom_fact_sessions contains session data for user activi
 - concept_progress_key (Varchar): Unique identifier for a page/concept
 - session_id (Varchar):  Unique identifier of the classroom session. Not the same as chat session
 - session_type (Varchar): Definition unknown
-- session_duration (Bigint): Session duration for unique session ID given in seconds
+- session_duration (Bigint): Rolling sum of session durations given in seconds - each session has unique session ID
 - page_duration (Bigint): Subset of session duration spent on specific page/concept given in seconds
 - has_video (Boolean): Indicates if the page/concept has at least one video atom (True if yes, False if no)
 - video_watched_duration (Double): Subset of session duration spent on watching video given in seconds
